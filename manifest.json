@@ -1,0 +1,19 @@
+{
+  "manifest_version" : 2,
+  "name" : "SimpleTabManager",
+  "version" : "1.0",
+
+  "description" : "A simple tabs manager that manages tabs in current windows",
+
+  "permissions" : [
+    "tabs"
+  ],
+
+  "icons" : {
+  },
+
+  "browser_action" : {
+    "default_title" : "TabManager",
+    "default_popup" : "popup/index.html"
+  }
+}
